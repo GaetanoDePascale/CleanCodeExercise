@@ -46,5 +46,10 @@ class Program
         #endregion
 
         Console.WriteLine("---------------------------------------------------------------");
+
+        DateTime dt = new DateTime(637134336000000000);
+        Console.WriteLine("Date: " + dt);
+        Console.WriteLine("Ticks: " + dt.Ticks);
+        Console.WriteLine("---------------------------------------------------------------");
     }
 }

@@ -17,7 +17,7 @@ function finalizeOperation() {
     // redirect 
 }
 
-function saveUserData(data) {
+function saveUserDataButtonClick(data) {
     validateData(data);
     saveData(data);
     sendData(data);
